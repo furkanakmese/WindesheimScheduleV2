@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/furkanakmese/Developer/windes_schedule_v2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "/Users/furkanakmese/Developer/WindesheimScheduleV2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/furkanakmese/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2a48d879ffa4b8315e05a57bcad16f09/res/values-ur/values-ur.xml",
