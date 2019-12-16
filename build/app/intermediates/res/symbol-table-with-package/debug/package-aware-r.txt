@@ -1,4 +1,4 @@
-com.example.windes_schedule_v2
+com.example.windesheim_schedule_v2
 attr alpha
 attr coordinatorLayoutStyle
 attr font

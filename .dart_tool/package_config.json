@@ -182,13 +182,13 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "windes_schedule_v2",
+      "name": "windesheim_schedule_v2",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2019-12-15T14:08:32.263125Z",
+  "generated": "2019-12-16T21:20:58.989084Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
