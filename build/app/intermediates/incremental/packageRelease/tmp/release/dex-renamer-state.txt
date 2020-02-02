@@ -1,0 +1,4 @@
+#Sun Feb 02 22:59:24 CET 2020
+base.0=/Users/furkanakmese/Developer/WindesheimScheduleV2/build/app/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
