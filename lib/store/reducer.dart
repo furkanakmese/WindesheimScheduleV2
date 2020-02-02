@@ -1,5 +1,6 @@
-import 'package:windesheim_schedule_v2/main.dart';
 import 'package:windesheim_schedule_v2/store/actions.dart';
+
+import '../main.dart';
 
 AppState reducer(AppState state, action) {
   // what you would otherwise do with a spread operator, here you call a method you made that

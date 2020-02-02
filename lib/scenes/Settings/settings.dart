@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:windesheim_schedule_v2/store/actions.dart';
-import 'package:windesheim_schedule_v2/utils/class.dart';
 
 import '../../main.dart';
+import '../../utils/class.dart';
+import '../../store/actions.dart';
 
 class Settings extends StatefulWidget {
   @override

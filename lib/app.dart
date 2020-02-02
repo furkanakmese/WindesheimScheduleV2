@@ -6,13 +6,13 @@ import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:redux/redux.dart';
 import 'package:redux_logging/redux_logging.dart';
 import 'package:redux_thunk/redux_thunk.dart';
-import 'package:windesheim_schedule_v2/custom_app_bar.dart';
-import 'package:windesheim_schedule_v2/scenes/Settings/settings.dart';
-import 'package:windesheim_schedule_v2/store/actions.dart';
-import 'package:windesheim_schedule_v2/store/reducer.dart';
-import 'package:windesheim_schedule_v2/utils/store.dart';
+import 'custom_app_bar.dart';
 import 'main.dart';
 import 'scenes/Home/home.dart';
+import 'scenes/Settings/settings.dart';
+import 'store/actions.dart';
+import 'store/reducer.dart';
+import 'utils/store.dart';
 
 class App extends StatefulWidget {
   // final Store<AppState> store;
