@@ -1,11 +1,10 @@
 import 'package:date_format/date_format.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:windesheim_schedule_v2/utils/schedule.dart';
 
+import '../../utils/schedule.dart';
 import '../../main.dart';
 import 'list_item.dart';
 

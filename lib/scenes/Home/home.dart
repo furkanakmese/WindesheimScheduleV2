@@ -5,13 +5,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:windesheim_schedule_v2/scenes/Home/lesson_list_web.dart';
-import 'package:windesheim_schedule_v2/store/actions.dart';
 
+import '../../store/actions.dart';
 import '../../main.dart';
 import 'header.dart';
 import 'header_web.dart';
 import 'lesson_list.dart';
+import 'lesson_list_web.dart';
 
 class Home extends StatelessWidget {
   final SwiperController controller;

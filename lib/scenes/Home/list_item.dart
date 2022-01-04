@@ -1,6 +1,7 @@
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
-import 'package:windesheim_schedule_v2/scenes/ClassDetails/class_details.dart';
+
+import '../ClassDetails/class_details.dart';
 
 class ListItem extends StatelessWidget {
   final dynamic item;

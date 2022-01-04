@@ -1,9 +1,6 @@
-// import 'dart:html';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
@@ -79,27 +76,29 @@ class _CustomAppBarState extends State<CustomAppBar> {
                               Scaffold.of(context).showSnackBar(snackBar);
                             },
                             // textAlignVertical: TextAlignVertical.center,
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 16),
+                            style: TextStyle(color: Colors.white, fontSize: 16),
                             decoration: InputDecoration(
                               hintText: 'Class',
                               hintStyle: TextStyle(color: Colors.white54),
                               contentPadding: EdgeInsets.only(bottom: 12),
                               enabledBorder: UnderlineInputBorder(
-                                borderSide: BorderSide(
-                                    color: Colors.white, width: 1.5),
+                                borderSide:
+                                    BorderSide(color: Colors.white, width: 1.5),
                               ),
                               border: UnderlineInputBorder(
-                                borderSide: BorderSide(
-                                    color: Colors.white, width: 1.5),
+                                borderSide:
+                                    BorderSide(color: Colors.white, width: 1.5),
                               ),
                             ),
                           ),
                         ),
                         Container(
                           height: 30,
-                          child: RaisedButton(
-                            child: Text('Set class'),
+                          child: FlatButton(
+                            child: Text(
+                              'Set class',
+                              style: TextStyle(color: Colors.white),
+                            ),
                             onPressed: () {
                               updateClassName(textController.text);
                               callback();

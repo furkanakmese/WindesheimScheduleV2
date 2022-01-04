@@ -15,7 +15,7 @@ class Header extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color.fromRGBO(0x10, 0x89, 0xFF, 1), Colors.white],
+              // colors: [Color.fromRGBO(0x10, 0x89, 0xFF, 1), Colors.white],
             ),
             borderRadius: BorderRadius.all(Radius.circular(30)),
             boxShadow: [

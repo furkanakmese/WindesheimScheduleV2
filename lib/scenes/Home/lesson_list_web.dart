@@ -2,8 +2,8 @@ import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:windesheim_schedule_v2/utils/schedule.dart';
 
+import '../../utils/schedule.dart';
 import '../../main.dart';
 import 'list_item_web.dart';
 
@@ -23,10 +23,6 @@ class LessonListWeb extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  // SvgPicture.asset(
-                  //   'assets/svg/undraw_server_down_s4lk.svg',
-                  //   height: 130,
-                  // ),
                   Container(
                     margin: EdgeInsets.only(top: 20),
                     child: Text(
@@ -43,6 +39,7 @@ class LessonListWeb extends StatelessWidget {
           } else {
             return Container(
               height: MediaQuery.of(context).size.height * 0.80,
+              color: Colors.white,
               alignment: Alignment.center,
               child: Container(
                 margin: EdgeInsets.all(20),// EdgeInsets.only(top: 20, bottom: 20),
@@ -283,7 +280,7 @@ class LessonListWeb extends StatelessWidget {
                   },
                   itemCount: state.schedule != null ? state.schedule.length : 0,
                   controller: controller,
-                  onTap: (data) => controller.next(animation: true),
+                  // onTap: (data) => controller.next(animation: true),
                   viewportFraction: 1,
                   scale: 1,
                   loop: false,

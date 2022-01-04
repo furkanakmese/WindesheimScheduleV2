@@ -31,7 +31,7 @@ class _AppState extends State<App> {
       fetching: false,
       error: '',
     ),
-    middleware: [thunkMiddleware, new LoggingMiddleware.printer()],
+    // middleware: [thunkMiddleware, new LoggingMiddleware.printer()],
   );
 
   static final SwiperController controller = new SwiperController();
@@ -83,6 +83,7 @@ class _AppState extends State<App> {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(fontFamily: 'OpenSans'),
+        title: 'Schedule',
         home: Scaffold(
           backgroundColor: Colors.white,
           appBar: PreferredSize(

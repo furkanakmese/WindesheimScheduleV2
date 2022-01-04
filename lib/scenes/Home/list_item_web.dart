@@ -1,6 +1,7 @@
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
-import 'package:windesheim_schedule_v2/scenes/ClassDetails/class_details.dart';
+
+import '../ClassDetails/class_details.dart';
 
 class ListItemWeb extends StatelessWidget {
   final dynamic item;
@@ -24,6 +25,7 @@ class ListItemWeb extends StatelessWidget {
             child: Container(
               margin: EdgeInsets.fromLTRB(0, 0, 0, 7),
               height: 100,
+              width: 200,
               decoration: BoxDecoration(
                   color: Color.fromRGBO(0x82, 0x93, 0xFF, 1),
                   borderRadius: BorderRadius.all(Radius.circular(15)),
@@ -43,6 +45,7 @@ class ListItemWeb extends StatelessWidget {
           Container(
             // padding: EdgeInsets.fromLTRB(12, 15, 15, 10),
             height: 100,
+            width: 200,
             child: Material(
               color: Colors.transparent,
               child: InkWell(

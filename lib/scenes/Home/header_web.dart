@@ -16,8 +16,9 @@ class _HeaderWebState extends State<HeaderWeb> {
     return Align(
       alignment: Alignment.topLeft,
       child: Container(
-        height: MediaQuery.of(context).size.height * 0.10,
+        height: MediaQuery.of(context).size.height * 0.15,
         margin: EdgeInsets.fromLTRB(10, 20, 10, 0),
+        alignment: Alignment.centerLeft,
         child: Container(
           child: Material(
             color: Colors.transparent,

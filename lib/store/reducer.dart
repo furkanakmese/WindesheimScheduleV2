@@ -1,5 +1,4 @@
-import 'package:windesheim_schedule_v2/store/actions.dart';
-
+import '../store/actions.dart';
 import '../main.dart';
 
 AppState reducer(AppState state, action) {

@@ -19,13 +19,5 @@ class AppState {
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  // AppState initialState = await getInitialState();
-
-  // final store = Store<AppState>(
-  //   reducer,
-  //   initialState: initialState,
-  //   middleware: [thunkMiddleware, new LoggingMiddleware.printer()],
-  // );
-  // print(Platform.isMacOS);
   runApp(App());
 }
